@@ -1,0 +1,20 @@
+{
+  "name": "hapilearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.10",
+    "config": "^3.3.11",
+    "nanoid": "^3.3.7",
+    "nodemon": "^3.1.3"
+  }
+}
